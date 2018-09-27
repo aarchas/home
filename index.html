@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aarcha Suresh</title>
+	<link href="index.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300" rel="stylesheet">  
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	
+</head>
+
+<body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0">
+	
+	
+	<div class="bg">
+    <div style="height: 100vh; width: 100vw; background-image: url('Artboard 1desktop1.jpg')"> </div>
+		
+	  <div style="width: 100vw; height: 28vh; padding: 0; position: absolute; top: 0vh;"></div>
+	  <div style="width: 100vw; height: 38.66vh; padding: 0; position: absolute; top: 28vh;" class="home_content">
+		  <center> <img src="Artboard 1logo.png" height="100%;">
+		  <br><br>
+		  AARCHA SURESH &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  
+	      </center>
+	  </div>
+	  <center><div style="width: 100vw; height: 7.75vh; padding: 0; position: absolute; top: 90vh;">
+		<a href="second.html"><img src="Artboard 1firstarrow.png"  ></a>
+	  </center>
+	  </div>
+	</div>
+	
+	<script type="text/javascript">
+	
+	$(document).scroll(function() {
+limit=80;
+url='second.html';			
+sc=100*$(document).scrollTop()/$(window).height();
+if(sc>limit)$(location).attr('href',url);
+})
+	
+	</script>
+	
+			
+</body>
+</html>

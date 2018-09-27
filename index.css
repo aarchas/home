@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+.animate-in {
+    -webkit-animation: SlideIn .5s ease-in;
+    animation: SlideIn .5s ease-in;
+}
+
+@-webkit-keyframes SlideIn {
+    from {top: 750px}
+    to {top: 0}
+}
+
+a.about_link:link, a.about_link:visited
+{
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.about_link:hover
+{
+	text-decoration: none;
+	background-color: #009687;
+	border: 1px solid;
+	border-color: #009687;
+}
+
+a.about_link:visited
+{
+	text-decoration: none;
+	border: 0px;
+}
+
+.bg
+{
+     width: 100vw;
+     height: 100vh;
+     max-height: 100vh;
+     margin: 0;
+     padding: 0;
+	 position: relative;
+
+}
+
+.home_content
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12pt;
+	letter-spacing: 2px;
+	font-weight: 300;
+	
+}
+
+.header
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 32pt;
+}
+
+.text
+{
+    font-family: 'montserrat', sans-serif;
+	font-weight: 200;
+	font-size: 12pt;
+	text-align: left;
+	
+}
+
+.div_conent
+{
+	width: 21vw; 
+	height: 69.6vh; 
+	border: #FFFFFF solid 2pt; 
+	float: left; 
+	line-height: 15px; 
+	padding-left: 1vw; 
+	padding-right: 1vw; 
+	padding-top: 4vh;
+}
+
